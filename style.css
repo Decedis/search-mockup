@@ -1,0 +1,40 @@
+.navigation .grid-container{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: 50px 50px;
+}
+.search-field{
+    display: flex;
+}
+.site-logo{
+    grid-column: 1 / 3;
+}
+#search-bar{
+    display: flex; 
+    grid-column: 4 / 12;
+}
+#query {
+    border: 1px solid black;
+    border-radius: 30px;
+
+    width: 100%;
+    max-width: 100%;
+}
+.grid-menu{
+    grid-column: 17;
+    grid-row: 1 / 2;
+}
+.user-profile{
+    grid-column: 18;
+    grid-row: 1 / 2;
+}
+.link-container{
+    display: flex;
+    gap: 10px;
+    grid-column: 4 / 12;
+    grid-row: 2 / 2;
+}
+.link-container a img{
+    width: var(--size-30);
+    max-width: var(--size-30);
+}
