@@ -89,3 +89,44 @@ button {
     position: relative;
     top: 3px;
 } 
+.search-results-list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    min-width: 60%;
+}
+.search-results-list .additional-res-links{
+    display: flex;
+    flex-direction: row;
+    gap: var(--size-16);
+}
+.search-results-list .search-result,
+.search-results-list .people-also-ask {
+    margin-bottom: var(--size-50);
+    width: 80%;
+    max-width: 80%;
+}
+.search-result .result-link a {color: black;}
+.search-result .result-header { 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+.search-result .result-desc { margin-bottom: 0px;}
+.search-result .result-desc .date {color: grey;}
+
+.search-results-list .people-also-ask{
+    border: 1px solid grey;
+    border-radius: 8px;
+    /* padding-left: var(--size-20); */
+}
+.search-results-list .people-also-ask ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-14);
+}
+.search-results-list .people-also-ask h4 { border-bottom: 1px solid black; }
+.search-results-list .people-also-ask h4 p { padding-left: var(--size-20);}
+.search-results-list .people-also-ask ul li { border-bottom: 1px solid black; }
+.search-results-list .people-also-ask ul li p { padding-left: var(--size-20);}
+.no-border {border: 0px;}
