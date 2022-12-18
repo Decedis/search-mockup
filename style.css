@@ -13,6 +13,8 @@
 }
 .site-logo{
     grid-column: 1 / 3;
+    width: var(--size-150);
+    max-width: var(--size-150);
 }
 #search-bar{
     display: flex; 
@@ -34,24 +36,30 @@ button {
     right: 80px;
     background-color: transparent;
     border-left: 1px solid lightgrey;
+    display: flex;
+    gap: var(--size-10);
+}
+#search-bar button img {
+    width: var(--size-25);
+    max-width: var(--size-25);
 }
 .grid-menu{
     grid-column: 17;
     grid-row: 1 / 2;
 
-    height: var(--size-40);
-    width: var(--size-40);
-    max-height: var(--size-40);
-    max-width: var(--size-40);
+    height: var(--size-30);
+    width: var(--size-30);
+    max-height: var(--size-30);
+    max-width: var(--size-30);
 }
 .user-profile{
     grid-column: 18;
     grid-row: 1 / 2;
 
-    height: var(--size-40);
-    width: var(--size-40);
-    max-height: var(--size-40);
-    max-width: var(--size-40);
+    height: var(--size-30);
+    width: var(--size-30);
+    max-height: var(--size-30);
+    max-width: var(--size-30);    
     border: 1px solid black;
     border-radius: 50%;
 }
