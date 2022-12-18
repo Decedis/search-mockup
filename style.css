@@ -20,7 +20,7 @@
     grid-row: 1/2;
 }
 #query {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     border-radius: 30px;
 
     width: 100%;
@@ -33,7 +33,7 @@ button {
     position: relative;
     right: 80px;
     background-color: transparent;
-    border-left: 1px solid gray;
+    border-left: 1px solid lightgrey;
 }
 .grid-menu{
     grid-column: 17;
@@ -151,3 +151,9 @@ button {
     position: relative;
     bottom: var(--size-25);
 }
+.lower-navigation .search-pages .page-nav .alt-color-g { color: blue;}
+.lower-navigation .search-pages .page-nav .alt-color-active { color: red;}
+.lower-navigation .search-pages .page-nav h5           { color: #e9c05a;}
+.lower-navigation .search-pages .page-nav .alt-color-g { color: blue;}
+.lower-navigation .search-pages .page-nav .alt-color-l { color: green;}
+.lower-navigation .search-pages .page-nav .alt-color-e { color: red;}
