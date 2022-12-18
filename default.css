@@ -9,6 +9,7 @@
     --size-40: 2.5rem;
     --size-50: 3.125rem;
     --size-100: 6.25rem;
+    --size-120: 7.5rem;
     --size-150: 9.375rem;
 } 
 html {scroll-behavior: smooth;}
