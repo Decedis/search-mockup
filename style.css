@@ -89,7 +89,8 @@ button {
     position: relative;
     top: 3px;
 } 
-.search-results-list{
+.search-results-list,
+.lower-navigation {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -130,3 +131,12 @@ button {
 .search-results-list .people-also-ask ul li { border-bottom: 1px solid black; }
 .search-results-list .people-also-ask ul li p { padding-left: var(--size-20);}
 .no-border {border: 0px;}
+
+.lower-navigation{
+    
+}
+.search-pages{
+    display: flex;
+    gap: var(--size-14);
+    font-size: var(--size-40);
+}
