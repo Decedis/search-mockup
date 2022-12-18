@@ -140,3 +140,13 @@ button {
     gap: var(--size-14);
     font-size: var(--size-40);
 }
+.lower-navigation .search-pages h5 {
+    margin-bottom: 0px;
+}
+.lower-navigation .search-pages .page-number {
+    width: 45px;
+    text-align: center;
+}
+.lower-navigation .search-pages .page-number a {
+    font-size: var(--size-16);
+}
