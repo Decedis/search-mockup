@@ -28,14 +28,19 @@
     width: 100%;
     max-width: 100%;
 }
+.search-commands, .cancel-search {
+    background-color: transparent;
+    border-left: 1px solid lightgrey;
+    border: 0px;
+}
+.cancel-search {
+
+}
 .search-commands {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    border: 0px;
     position: relative;
     right: 80px;
-    background-color: transparent;
-    border-left: 1px solid lightgrey;
     display: flex;
     gap: var(--size-10);
 }
