@@ -133,20 +133,21 @@ button {
 .no-border {border: 0px;}
 
 .lower-navigation{
-    
+    font-family: 'Open Sans';
 }
 .search-pages{
     display: flex;
-    gap: var(--size-14);
     font-size: var(--size-40);
 }
-.lower-navigation .search-pages h5 {
+.lower-navigation .search-pages .page-nav h5 {
     margin-bottom: 0px;
 }
-.lower-navigation .search-pages .page-number {
+.lower-navigation .search-pages .page-nav {
     width: 45px;
     text-align: center;
 }
-.lower-navigation .search-pages .page-number a {
+.lower-navigation .search-pages .page-nav a {
     font-size: var(--size-16);
+    position: relative;
+    bottom: var(--size-25);
 }
