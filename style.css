@@ -28,7 +28,7 @@
     width: 100%;
     max-width: 100%;
 }
-button {
+.search-commands {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border: 0px;
@@ -39,7 +39,7 @@ button {
     display: flex;
     gap: var(--size-10);
 }
-#search-bar button img {
+#search-bar .search-commands img {
     width: var(--size-25);
     max-width: var(--size-25);
 }
@@ -96,7 +96,9 @@ button {
 
     position: relative;
     top: 3px;
-} 
+    margin-left: var(--size-20);
+}
+.link-container .nav-link-element.element-final {margin-left: 0px;} 
 .search-results-list,
 .lower-navigation {
     margin-left: auto;
