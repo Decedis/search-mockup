@@ -21,6 +21,11 @@
     grid-column: 4 / 15;
     grid-row: 1/2;
 }
+::placeholder {
+    color: lightgrey;
+    position: relative;
+    left: 20px;
+}
 #query {
     border: 1px solid lightgrey;
     border-radius: 30px;
